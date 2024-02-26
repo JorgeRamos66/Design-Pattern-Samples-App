@@ -6,7 +6,7 @@
 <img src="https://app.bitrise.io/app/6e596b062d1c496e/status.svg?token=dN7NyRj3DFsxnv0ZoYd-ZA&branch=master"/>
 </p>
 
-## Design Patterns
+## Patrones de diseño
 
 Exploring Behavioral, Creational and Structural Design Patterns in Kotlin.
 
