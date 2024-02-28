@@ -1,11 +1,11 @@
 @if "%DEBUG%" == "" @echo off
 @rem ##########################################################################
 @rem
-@rem  Gradle startup script for Windows
+@rem  Script de inicio de Gradle para Windows
 @rem
 @rem ##########################################################################
 
-@rem Set local scope for the variables with windows NT shell
+@rem Establecer el alcance local para las variables con el shell de Windows NT
 if "%OS%"=="Windows_NT" setlocal
 
 set DIRNAME=%~dp0
@@ -13,10 +13,10 @@ if "%DIRNAME%" == "" set DIRNAME=.
 set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%
 
-@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+@rem Agregue aquí las opciones predeterminadas de JVM. También puedes usar JAVA_OPTS y GRADLE_OPTS para pasar opciones de JVM a este script.
 set DEFAULT_JVM_OPTS=
 
-@rem Find java.exe
+@rem Encuentra java.exe
 if defined JAVA_HOME goto findJavaFromJavaHome
 
 set JAVA_EXE=java.exe
@@ -46,12 +46,12 @@ echo location of your Java installation.
 goto fail
 
 :init
-@rem Get command-line arguments, handling Windows variants
+@rem Obtenga argumentos de línea de comandos, manejando variantes de Windows
 
 if not "%OS%" == "Windows_NT" goto win9xME_args
 
 :win9xME_args
-@rem Slurp the command line arguments.
+@rem Sorbe los argumentos de la línea de comando.
 set CMD_LINE_ARGS=
 set _SKIP=2
 
@@ -61,20 +61,20 @@ if "x%~1" == "x" goto execute
 set CMD_LINE_ARGS=%*
 
 :execute
-@rem Setup the command line
+@rem Configurar la línea de comando
 
 set CLASSPATH=%APP_HOME%\gradle\wrapper\gradle-wrapper.jar
 
-@rem Execute Gradle
+@rem Ejecutar Gradle
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" org.gradle.wrapper.GradleWrapperMain %CMD_LINE_ARGS%
 
 :end
-@rem End local scope for the variables with windows NT shell
+@rem Finalizar el alcance local para las variables con el shell de Windows NT
 if "%ERRORLEVEL%"=="0" goto mainEnd
 
 :fail
-rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
-rem the _cmd.exe /c_ return code!
+rem Establezca la variable GRADLE_EXIT_CONSOLE si necesita el código de retorno _script_ en lugar de 
+rem el código de retorno _cmd.exe /c_!
 if  not "" == "%GRADLE_EXIT_CONSOLE%" exit 1
 exit /b 1
 
