@@ -2,14 +2,14 @@
 
 ##############################################################################
 ##
-##  Gradle start up script for UN*X
-##
+##  Script de inicio de Gradle para UN*X
+##  
 ##############################################################################
 
-# Attempt to set APP_HOME
-# Resolve links: $0 may be a link
+# Intenta establecer APP_HOME
+# Resolver enlaces: $0 puede ser un enlace
 PRG="$0"
-# Need this for relative symlinks.
+# Necesita esto para enlaces simbólicos relativos.
 while [ -h "$PRG" ] ; do
     ls=`ls -ld "$PRG"`
     link=`expr "$ls" : '.*-> \(.*\)$'`
@@ -27,10 +27,10 @@ cd "$SAVED" >/dev/null
 APP_NAME="Gradle"
 APP_BASE_NAME=`basename "$0"`
 
-# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+# Agregue aquí las opciones predeterminadas de JVM. También puedes usar JAVA_OPTS y GRADLE_OPTS para pasar opciones de JVM a este script.
 DEFAULT_JVM_OPTS=""
 
-# Use the maximum available, or set MAX_FD != -1 to use that value.
+# Utilice el máximo disponible o establezca MAX_FD != -1 para utilizar ese valor.
 MAX_FD="maximum"
 
 warn () {
@@ -44,7 +44,7 @@ die () {
     exit 1
 }
 
-# OS specific support (must be 'true' or 'false').
+# Soporte específico del sistema operativo (debe ser "verdadero" o "falso").
 cygwin=false
 msys=false
 darwin=false
@@ -66,10 +66,10 @@ esac
 
 CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
 
-# Determine the Java command to use to start the JVM.
+# Determine el comando Java que se utilizará para iniciar la JVM.
 if [ -n "$JAVA_HOME" ] ; then
     if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
-        # IBM's JDK on AIX uses strange locations for the executables
+        # El JDK de IBM en AIX utiliza ubicaciones extrañas para los ejecutables
         JAVACMD="$JAVA_HOME/jre/sh/java"
     else
         JAVACMD="$JAVA_HOME/bin/java"
@@ -88,7 +88,7 @@ Please set the JAVA_HOME variable in your environment to match the
 location of your Java installation."
 fi
 
-# Increase the maximum file descriptors if we can.
+# Aumente el máximo de descriptores de archivos si podemos.
 if [ "$cygwin" = "false" -a "$darwin" = "false" -a "$nonstop" = "false" ] ; then
     MAX_FD_LIMIT=`ulimit -H -n`
     if [ $? -eq 0 ] ; then
@@ -104,18 +104,18 @@ if [ "$cygwin" = "false" -a "$darwin" = "false" -a "$nonstop" = "false" ] ; then
     fi
 fi
 
-# For Darwin, add options to specify how the application appears in the dock
+# Para Darwin, agregue opciones para especificar cómo aparece la aplicación en el Dock
 if $darwin; then
     GRADLE_OPTS="$GRADLE_OPTS \"-Xdock:name=$APP_NAME\" \"-Xdock:icon=$APP_HOME/media/gradle.icns\""
 fi
 
-# For Cygwin, switch paths to Windows format before running java
+# Para Cygwin, cambie las rutas al formato de Windows antes de ejecutar Java
 if $cygwin ; then
     APP_HOME=`cygpath --path --mixed "$APP_HOME"`
     CLASSPATH=`cygpath --path --mixed "$CLASSPATH"`
     JAVACMD=`cygpath --unix "$JAVACMD"`
 
-    # We build the pattern for arguments to be converted via cygpath
+    # Construimos el patrón para que los argumentos se conviertan mediante cygpath
     ROOTDIRSRAW=`find -L / -maxdepth 1 -mindepth 1 -type d 2>/dev/null`
     SEP=""
     for dir in $ROOTDIRSRAW ; do
@@ -123,17 +123,17 @@ if $cygwin ; then
         SEP="|"
     done
     OURCYGPATTERN="(^($ROOTDIRS))"
-    # Add a user-defined pattern to the cygpath arguments
+    # Agregue un patrón definido por el usuario a los argumentos de cygpath
     if [ "$GRADLE_CYGPATTERN" != "" ] ; then
         OURCYGPATTERN="$OURCYGPATTERN|($GRADLE_CYGPATTERN)"
     fi
-    # Now convert the arguments - kludge to limit ourselves to /bin/sh
+    # Ahora convierta los argumentos: hagamos caso para limitarnos a /bin/sh
     i=0
     for arg in "$@" ; do
         CHECK=`echo "$arg"|egrep -c "$OURCYGPATTERN" -`
-        CHECK2=`echo "$arg"|egrep -c "^-"`                                 ### Determine if an option
+        CHECK2=`echo "$arg"|egrep -c "^-"`                                 ### Determinar si una opción
 
-        if [ $CHECK -ne 0 ] && [ $CHECK2 -eq 0 ] ; then                    ### Added a condition
+        if [ $CHECK -ne 0 ] && [ $CHECK2 -eq 0 ] ; then                    ### Se agregó una condición
             eval `echo args$i`=`cygpath --path --ignore --mixed "$arg"`
         else
             eval `echo args$i`="\"$arg\""
@@ -154,17 +154,17 @@ if $cygwin ; then
     esac
 fi
 
-# Escape application args
+# Escapar de argumentos de la aplicación
 save () {
     for i do printf %s\\n "$i" | sed "s/'/'\\\\''/g;1s/^/'/;\$s/\$/' \\\\/" ; done
     echo " "
 }
 APP_ARGS=$(save "$@")
 
-# Collect all arguments for the java command, following the shell quoting and substitution rules
+# Recopile todos los argumentos para el comando java, siguiendo las reglas de sustitución y cotización del shell.
 eval set -- $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "\"-Dorg.gradle.appname=$APP_BASE_NAME\"" -classpath "\"$CLASSPATH\"" org.gradle.wrapper.GradleWrapperMain "$APP_ARGS"
 
-# by default we should be in the correct project dir, but when run from Finder on Mac, the cwd is wrong
+# De forma predeterminada, deberíamos estar en el directorio de proyecto correcto, pero cuando se ejecuta desde Finder en Mac, el cwd es incorrecto.
 if [ "$(uname)" = "Darwin" ] && [ "$HOME" = "$PWD" ]; then
   cd "$(dirname "$0")"
 fi
