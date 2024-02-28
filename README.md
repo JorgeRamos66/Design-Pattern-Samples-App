@@ -8,22 +8,22 @@
 
 ## Patrones de diseño 
 
-Exploring Behavioral, Creational and Structural Design Patterns in Kotlin.
+Exploracion Conductual, Creacional y Estructural de Patrones de Diseño en Kotlin.
 
-Feel free to improve or provide feedback on any of the patterns.
+Sientete libre de mejorar o proporcionar comentarios en cualquiera de los patrones.
 
-## Prerequisite
+## Prerequisitos
 
-The project uses firebase crashlytics hence setting up a [firebase project](https://firebase.google.com/)
-will be required for a successful build.
+El proyecto usas crashlytics de firebase, por lo que establecer una [projecto de firebase](https://firebase.google.com/)
+sera requerido para una construccion exitosa.
 
-## More References
+## Mas Referencias
 
 - [Design-Patterns-In-Kotlin](https://github.com/dbacinski/Design-Patterns-In-Kotlin)
 - [Refactoring Guru Design Patterns](https://refactoring.guru/design-patterns)
 - [Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
 
-## Screenshots
+## Capturas de pantalla
 
 |<img src='art/s4.png' width='210'/>|<img src='art/s7.png' width='210'/>|<img src='art/s8.png' width='210'/>|
 |:--:|:--:|:--:|
@@ -39,28 +39,28 @@ will be required for a successful build.
 
 <a href='https://play.google.com/store/apps/details?id=com.github.odaridavid.designpatterns&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width='150'/></a>
 
-## Attributions
+## Atribuciones
 
-Google Play and the Google Play logo are trademarks of Google LLC.
+Google Play y el logo de Google Play son marcas registradas de Google LLC.
 
 <a target="_blank" href="https://icons8.com/icons/set/github">GitHub icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-## License
+## Licencia
 
 ```
   Copyright 2020 David Odari
  
-  Licensed under the Apache License, Version 2.0 (the "License"); 
-  you may not use this file except in compliance with the License. You 
-  may obtain a copy of the License at.
-             http://www.apache.org/licenses/LICENSE-2.0
-  Unless required by applicable law or agreed to in writing, software 
-  distributed under the License is distributed on an "AS IS" BASIS, 
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
+   Licenciado bajo la Licencia Apache, Versión 2.0 (la "Licencia");
+   no puede utilizar este archivo excepto de conformidad con la Licencia. Tú
+   puede obtener una copia de la Licencia en.
+              http://www.apache.org/licenses/LICENSE-2.0
+   A menos que lo exija la ley aplicable o se acuerde por escrito, el software
+   distribuido bajo la Licencia se distribuye "TAL CUAL",
+   SIN GARANTÍAS NI CONDICIONES DE NINGÚN TIPO, ya sean expresas o implícitas.
+   Consulte la Licencia para conocer el idioma específico que rige los permisos y
+   limitaciones bajo la Licencia.
 ```
 
-## [Privacy Policy](https://design-patterns.flycricket.io/privacy.html)
+## [Politicas de Privacidad](https://design-patterns.flycricket.io/privacy.html)
 
 
