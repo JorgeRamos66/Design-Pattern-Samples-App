@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">Design Pattern Samples</string>
 
-    <!--Creational patterns -->
+    <!--Patrones creacionales -->
     <string name="title_builder">Builder</string>
     <string name="title_abstract_factory">Abstract Factory</string>
     <string name="title_factory">Factory</string>
     <string name="title_prototype">Prototype</string>
     <string name="title_singleton">Singleton</string>
 
-    <!--Structural patterns -->
+    <!--Patrones estructurales -->
     <string name="title_adapter">Adapter</string>
     <string name="title_bridge">Bridge</string>
     <string name="title_composite">Composite</string>
@@ -17,7 +17,7 @@
     <string name="title_flyweight">Flyweight</string>
     <string name="title_proxy">Proxy</string>
 
-    <!--Behavioral patterns -->
+    <!--Patrones de comportamiento -->
     <string name="title_chain_of_responsibility">Chain Of Responsibility</string>
     <string name="title_command">Command</string>
     <string name="title_iterator">Iterator</string>
@@ -29,7 +29,7 @@
     <string name="title_template">Template Method</string>
     <string name="title_visitor">Visitor</string>
 
-    <!-- About Activity-->
+    <!-- Acerca de la actividad-->
     <string name="libraries">Libraries</string>
     <string name="info_design_patterns_app_icon">Design Patterns App Icon</string>
     <string name="template_app_version" translatable="false">v%1$s</string>
@@ -37,7 +37,7 @@
     <string name="title_privacy_policy">Privacy Policy</string>
 
 
-    <!--Main Activity-->
+    <!--Actividad principal-->
     <string name="info_design_pattern_image">Puzzle piece image as design pattern card icon</string>
     <string name="menu_about">About</string>
     <string name="menu_settings">Settings</string>
@@ -45,10 +45,10 @@
     <string name="app_update_cancelled">App Update Cancelled</string>
     <string name="app_update_failed">App Update Failed</string>
 
-    <!--Design Pattern Detail Activity-->
+    <!--Actividad de detalle del patrón de diseño-->
     <string name="title_code_sample">Code Sample</string>
 
-    <!--Settings Activity-->
+    <!--Configuración Actividad-->
     <string name="title_theme_preference">App Theme</string>
     <string name="key_theme_preference" translatable="false">theme</string>
     <string name="pref_summary_theme_system_above_q">System Default</string>
@@ -56,126 +56,126 @@
     <string name="pref_summary_theme_light">Light Theme</string>
     <string name="pref_summary_theme_dark">Dark Theme</string>
 
-    <!--Design Pattern Descriptions-->
+    <!--Descripciones de patrones de diseño-->
     <string name="desc_abstract_factory">
-        A creational design pattern that encapsulates a group of individual factories that have a
-        common theme without specifying their concrete classes.
+        Un patrón de diseño creacional que encapsula un grupo de fábricas individuales que tienen un
+        tema común sin especificar sus clases concretas.
     </string>
 
     <string name="desc_adapter">
-        A structural design pattern that lets incompatible interfaces work in harmony by providing a
-        wrapper to make the existing classes work without modifying the source code using one of the
-        existing interfaces.
+        Un patrón de diseño estructural que permite que interfaces incompatibles funcionen en armonía al proporcionar una
+        contenedor para hacer que las clases existentes funcionen sin modificar el código fuente usando uno de los
+        interfaces existentes.
     </string>
 
     <string name="desc_bridge">
-        A structural design pattern that decouples abstractions from their implementation.It has a
-        very similar structure to the adapter pattern.
+        Un patrón de diseño estructural que desacopla las abstracciones de su implementación. Tiene una
+        Estructura muy similar al patrón adaptador.
     </string>
 
     <string name="desc_builder">
-        A creational design pattern that provides stepwise construction of complex objects.
+        Un patrón de diseño creacional que proporciona la construcción paso a paso de objetos complejos.
     </string>
 
     <string name="desc_chain_of_responsibility">
-        A behavioral design pattern consisting of a chain of receivers known as handlers,each handler
-        will process a request and pass it on to the next for further processing.
+        Un patrón de diseño de comportamiento que consiste en una cadena de receptores conocidos como manejadores, cada manejador
+        procesará una solicitud y la pasará al siguiente para su posterior procesamiento.
     </string>
 
     <string name="desc_command">
-        A behavioral design pattern  behavioral design pattern in which an object is used to
-        encapsulate all information needed to perform an action or trigger an event at a later time.
+        Un patrón de diseño de comportamiento patrón de diseño de comportamiento en el que se utiliza un objeto para
+        encapsula toda la información necesaria para realizar una acción o desencadenar un evento en un momento posterior.
     </string>
 
     <string name="desc_composite">
-        A structural design pattern where a group of objects are treated as one.
+        Un patrón de diseño estructural donde un grupo de objetos se trata como uno solo.
     </string>
 
     <string name="desc_observer">
-        A behavioral design pattern where an object known as a publisher maintains a list of objects
-        known as observers which get notified on state changes.
+        Un patrón de diseño de comportamiento en el que un objeto conocido como editor mantiene una lista de objetos.
+        conocidos como observadores que reciben notificaciones sobre los cambios de estado.
     </string>
 
     <string name="desc_state">
-        A behavioral design pattern where an object alters its behaviours when its internal state
-        changes.
+        Un patrón de diseño de comportamiento donde un objeto altera su comportamiento cuando su estado interno
+        cambios.
     </string>
 
     <string name="desc_decorator">
-        A structural design patterns that adds behavior to an object using a wrapper without
-        altering the structure of affected objects.
+        Un patrón de diseño estructural que agrega comportamiento a un objeto usando un contenedor sin
+        alterar la estructura de los objetos afectados.
     </string>
 
     <string name="desc_facade">
-        A structural design pattern that abstracts complexities by providing a simplified interface.
+        Un patrón de diseño estructural que abstrae las complejidades al proporcionar una interfaz simplificada.
     </string>
 
     <string name="desc_factory">
-        A creational design pattern which provides an interface to create
-        objects at runtime.
+        Un patrón de diseño creacional que proporciona una interfaz para crear.
+        objetos en tiempo de ejecución.
     </string>
 
     <string name="desc_singleton">
-        A creational design pattern that ensures the created object has only one instance.
+        Un patrón de diseño creacional que garantiza que el objeto creado tenga una sola instancia.
     </string>
 
     <string name="desc_mediator">
-        A behavioral design pattern that enforces loose coupling between objects by reducing
-        communication complexity in how they interact.
+        Un patrón de diseño de comportamiento que impone un acoplamiento flexible entre objetos al reducir
+        la complejidad de la comunicación en la forma en que interactúan.
     </string>
 
     <string name="desc_memento">
-        A behavioral design that provides abiity to restore an object to its previous state.It is
-        implemented with three objects: the originator, a caretaker and a memento.
+        Un diseño de comportamiento que proporciona la capacidad de restaurar un objeto a su estado anterior. 
+        Se implementa con tres objetos: el creador, un cuidador y un recuerdo.
     </string>
 
     <string name="desc_prototype">
-        A creational design pattern which copies an existing instance of an object and making
-        customization changes as opposed to creating a new object.
+        Un patrón de diseño creacional que copia una instancia existente de un objeto y hace
+        cambios de personalización en lugar de crear un nuevo objeto.
     </string>
 
     <string name="desc_proxy">
-        A structural design pattern that provides a placeholder object that helps with access control
-        to the original object by implementing an extra layer of encapsulation.
+        Un patrón de diseño estructural que proporciona un objeto marcador de posición que ayuda con el control de acceso.
+        al objeto original implementando una capa adicional de encapsulación.
     </string>
 
     <string name="desc_strategy">
-        A behavioral design pattern that selects an algorithm to use from a family of algorithms
-        during runtime.
+        Un patrón de diseño de comportamiento que selecciona un algoritmo para usar de una familia de algoritmos.
+        durante el tiempo de ejecución.
     </string>
 
     <string name="desc_template_method">
-        The template method falls under behavioral design patterns.It constitutes of a method in a
-        superclass, usually an abstract superclass, and defines the skeleton of an operation in
-        terms of a number of high-level steps. These steps are themselves implemented by additional
-        helper methods in the same class as the template method.
+        El método de plantilla se incluye en los patrones de diseño de comportamiento y constituye un método en un
+        superclase, generalmente una superclase abstracta, y define el esqueleto de una operación en
+        en términos de una serie de medidas de alto nivel. Estos pasos se implementan a su vez mediante
+        métodos auxiliares en la misma clase que el método de plantilla.
     </string>
 
     <string name="desc_visitor">
-        A behavioral design pattern that lets you add new operations to existing objects without
-        modifying their structure by separating the algorithm from the objects structure.
+        Un patrón de diseño de comportamiento que le permite agregar nuevas operaciones a objetos existentes sin
+        modificando su estructura separando el algoritmo de la estructura de los objetos.
     </string>
 
     <string name="desc_iterator">
-       A behavioral design pattern in which an iterator is used to traverse a container and
-        access the container\'s elements.
+       Un patrón de diseño de comportamiento en el que se utiliza un iterador para atravesar un contenedor y
+       acceder a los elementos del contenedor.
     </string>
 
     <string name="desc_flyweight">
-        A structural design pattern that reduces the number of objects created by fitting more objects
-        into the available amount of RAM by sharing common parts of state between multiple objects
-        hence decreasing memory footprint and increasing performance.
+        Un patrón de diseño estructural que reduce la cantidad de objetos creados al ajustar más objetos.
+        en la cantidad de RAM disponible compartiendo partes comunes de estado entre múltiples objetos
+        por lo tanto, disminuye la huella de memoria y aumenta el rendimiento.
 
-        It may seem similar to singleton however there should be only one Singleton instance,once
-        the required object is created, we cannot create more. whereas a Flyweight class can have
-        multiple instances with different extrinsic attributes provided by the client.In this case
-        the time of day.
+        Puede parecer similar a singleton, sin embargo, solo debería haber una instancia de Singleton, una vez
+        Se crea el objeto requerido, no podemos crear más. mientras que una clase de peso mosca puede tener
+        múltiples instancias con diferentes atributos extrínsecos proporcionados por el cliente. En este caso
+        la hora del día.
     </string>
 
-    <!--Rating-->
+    <!--Clasificación-->
     <string name="info_rating_message">
-        If you found the app helpful or see aspects that could be improved on,feel free to leave us
-        some feedback on playstore and rate the app.
+        Si encuentra útil la aplicación o ve aspectos que podrían mejorarse, no dude en dejarnos
+        Algunos comentarios sobre Play Store y califican la aplicación.
     </string>
     <string name="title_rating_dialog">App Rating</string>
     <string name="label_dialog_negative_button">Later</string>
