@@ -2,13 +2,13 @@
  *
  * Copyright 2020 David Odari
  *
- * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
- * in compliance with the License. You may obtain a copy of the License at
+ * Licenciado bajo la Licencia Apache, Versión 2.0 (la "Licencia"); No puedes utilizar este archivo excepto
+ * de conformidad con la Licencia. Puede obtener una copia de la Licencia en
  *            http://www.apache.org/licenses/LICENSE-2.0
- * Unless required by applicable law or agreed to in writing, software distributed under the License
- * is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
- * or implied. See the License for the specific language governing permissions and limitations under
- * the License.
+ * A menos que lo exija la ley aplicable o se acuerde por escrito, el software distribuido bajo la Licencia
+ * se distribuye "TAL CUAL", SIN GARANTÍAS NI CONDICIONES DE NINGÚN TIPO, ya sean expresas
+ * o implícito. Consulte la Licencia para conocer el idioma específico que rige los permisos y limitaciones en
+ * la licencia.
  *
  **/
 package com.github.odaridavid.designpatterns.base
@@ -16,20 +16,20 @@ package com.github.odaridavid.designpatterns.base
 import android.os.PowerManager
 
 /**
- * Listener for system initiated changes that affect how the ui will be rendered.
- * @param T expected output from system initiated change
+ * Escuchador de cambios iniciados por el sistema que afectan la forma en que se representará la interfaz de usuario.
+ * @param T resultado esperado del cambio iniciado por el sistema
  */
 interface ISystemThemeChangeListener<out T> {
     /**
-     * Called when there's a change in power saver settings
+     * Se llama cuando hay un cambio en la configuración de ahorro de energía.
      *
-     * @param powerManager an instance of PowerManager for power saver related operations
+     * @param powerManager una instancia de PowerManager para operaciones relacionadas con el ahorro de energía
      */
     fun onPowerSaverModeChange(powerManager: PowerManager): T
 
     /**
-     * Called when there's a change in theme initiated by the system
-     * e.g Changing theme from the notification tray on Android Q and above
+     * Se llama cuando hay un cambio en el tema iniciado por el sistema.
+     * por ejemplo, cambiar el tema de la bandeja de notificaciones en Android Q y superior
      */
     fun onUiModeConfigChange(): T
 }
