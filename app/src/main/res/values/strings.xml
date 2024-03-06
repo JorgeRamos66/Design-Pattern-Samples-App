@@ -98,7 +98,7 @@
 
     <string name="desc_state">
         Un patrón de diseño de comportamiento donde un objeto altera su comportamiento cuando su estado interno
-        cambios.
+        cambios. 
     </string>
 
     <string name="desc_decorator">
