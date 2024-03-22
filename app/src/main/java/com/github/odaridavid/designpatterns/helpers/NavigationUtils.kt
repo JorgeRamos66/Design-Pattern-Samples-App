@@ -11,7 +11,7 @@
   * la licencia.
   *
   **/
-paquete com.github.odaridavid.designpatterns.helpers
+package com.github.odaridavid.designpatterns
 
 
 internal object NavigationUtils {

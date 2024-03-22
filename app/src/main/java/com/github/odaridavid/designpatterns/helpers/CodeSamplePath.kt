@@ -11,7 +11,7 @@
   * la licencia.
   *
   **/
-paquete com.github.odaridavid.designpatterns.helpers
+package com.github.odaridavid.designpatterns
 
 const val BASE_PATH = "file:///android_asset"
 const val LIGHT_KOTLIN_CSS_PATH = "$BASE_PATH/kotlin.css"
