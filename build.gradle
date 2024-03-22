@@ -1,4 +1,4 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+// Archivo de compilación de nivel superior dognde puede agregar opciones de configuración comunes a todos los subproyectos/módulos.
 
 buildscript {
     ext.kotlin_version = '1.5.20'
